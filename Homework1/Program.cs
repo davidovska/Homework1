@@ -6,7 +6,15 @@ namespace Homework1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.WriteLine("STOP!");
+            Console.BackgroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("READY!");
+            Console.BackgroundColor = ConsoleColor.Green;
+            Console.WriteLine("GO!");
+
+            Console.ReadLine();
+
         }
     }
 }
